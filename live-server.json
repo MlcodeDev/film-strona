@@ -1,0 +1,12 @@
+{
+  "port": 8080,
+  "root": "./",
+  "open": true,
+  "wait": 1000,
+  "middleware": [
+    {
+      "name": "css",
+      "path": "styles.css"
+    }
+  ]
+}
