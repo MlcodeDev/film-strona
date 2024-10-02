@@ -152,20 +152,20 @@ header{
   padding-right: 4em;
   line-height: 0;
   opacity: 1.0 !important;
-backgrou: nd-color: #061123;
+background-color: #061123;
 
 }
 
 #bg-image {
-  margin: 0 auto;
-}
-@media screen (width: 1000px){
-  margin
+  z-index: -1;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 #logo{
-  position: absolute;
   text-align: center;
+  padding-top: 4rem;
 }
 
 #line-1{
@@ -187,5 +187,5 @@ backgrou: nd-color: #061123;
 #wrapper{
   position: relative;
   background-color: red;
-
+  
 }
