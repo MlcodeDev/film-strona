@@ -152,22 +152,22 @@ header{
   padding-right: 4em;
   line-height: 0;
   opacity: 1.0 !important;
-backgrou: nd-color: #061123;
-
 }
 
 #bg-image {
   margin: 0 auto;
 }
-@media screen (width: 1000px){
-  margin
-}
 
-#logo{
-  position: absolute;
+/* #logo{ */
+/*   text-align: center; */
+/* } */
+main {
+  position: relative;
   text-align: center;
 }
-
+#logo{
+  position: absolute;
+}
 #line-1{
   padding-top: 5rem;
   font-family: var(--ff-logo);
