@@ -246,7 +246,7 @@ main img {
 }
 
 #trailer{
-  background-color: #211438;
+  background-color: #0B1937;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2,50%);
@@ -289,11 +289,41 @@ iframe {
   padding-left: 12px;
   padding-right: 12px;
 }
-#reviews button:hover{
+
+.icon-button {
+  display: flex;
+  justify-items: space-between;
+  align-items: center;
+  border: .01em soild;
+  border-radius: 5px;
+  color: white;
+}
+
+.icon-button:hover{
   cursor: pointer;
 }
 
 .center-items {
   width: 100%;
   height: 100%;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+  background-color: #020A13; 
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+#footer-logo{
+  font-family: var(--ff-logo);
+}
+
+footer h1 {
+  font-family: var(--ff-logo-sub);
+}
+
+#footer h1{
+
 }
