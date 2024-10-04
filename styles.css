@@ -244,10 +244,8 @@ main img {
 #wrapper div {
   margin-top: 3em;
 }
-/* #wrapper h3 { */
-/*   padding-bottom: 1em; */
-/*   font-family: var(--ff-logo); */
-/*   font-size: 1.5rem; */
-/*   font-weight: 500; */
-/*   letter-spacing: 0.01rem; */
-/* } */
+
+#trailer{
+  background-color: #211438;
+  width: 12px;
+}
